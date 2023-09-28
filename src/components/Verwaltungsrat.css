@@ -1,0 +1,30 @@
+.header-vr-team h3{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.header-vr-team p{
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.header-vr-team{
+    margin: 100px 80px 50px;
+}
+
+.vr-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.vr-members {
+    box-shadow: 0px 5px 5px 0 rgba(0,0,0,0.6);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.vr-members p{
+    margin-bottom: 0;
+}

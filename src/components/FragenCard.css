@@ -1,0 +1,33 @@
+.card{
+    -webkit-box-shadow: -9px 9px 19px 0px rgba(0,0,0,0.5);
+    box-shadow: -9px 9px 19px 0px rgba(0,0,0,0.5);
+    width: 90%;
+    margin: 100px auto;
+}
+
+.col-md-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-md-2 img {
+    border-radius: 50%;
+}
+
+.col h4{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.col h6 {
+    font-weight: 700;
+    font-size: 22px;
+}
+.fragen p{
+    font-size: 22px;
+    font-weight: 400;
+}
+.fragen .col:last-child{
+    margin-top: 5px;
+}

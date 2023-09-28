@@ -1,0 +1,41 @@
+/* Hintergrund und Textfarbe */
+.kontakt{
+    background-color: #E4312A;
+    color: #FFFFFF;
+    padding: 5% 5%;
+}
+
+/* Überschriften fontweight und abstand */
+.kontakt h3,
+.kontakt h6 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.kontakt h6 {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.kontakt h3 {
+    font-size: 42px;
+}
+
+/* Breite der Rows im Container */
+.kontaktinfos {
+    width: 55%;
+}
+
+.kontaktinfos p {
+    font-size: 18px;
+}
+
+.kontaktinfos a {
+    color: white;
+}
+/* responsive design, mehr platz für text */
+@media screen and (max-width: 992px){
+    .kontaktinfos{
+        width: 90%;
+    }
+}

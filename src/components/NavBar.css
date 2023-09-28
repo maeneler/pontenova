@@ -1,0 +1,51 @@
+
+.navbar-custom {
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #1D1D1D;
+}
+
+
+/* default pfeile bei dropdown alternativen entfernen */
+.navbar-light .navbar-nav .nav-link::after {
+    display: none;
+  }
+/* hover effekt für links */
+.navbar .nav-link:hover {
+    color: #E4312A
+}
+
+/* hover effekt für dropdown items plus entfernung der standardstyles */
+.navbar .dropdown-item:hover{
+    background-color: transparent;
+    color: #E4312A;
+    text-decoration: none;
+}
+
+/* triangel oberhalb des dropdown menus*/
+.custom-nav-dropdown::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 25%;
+    transform: translateX(-50%);
+    border-width: 0 5px 5px 5px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+  }
+
+ /* Dropdowns weiter nach unten schieben */
+ .dropdown-menu.show {
+    margin-top: 18px !important;
+  }
+
+  /* dropdown link farbwechsel behalten bei geöffnetem dropdown */
+  .nav-item.show.dropdown a:focus{
+    color: #E4312A;
+  }
+
+
+
+

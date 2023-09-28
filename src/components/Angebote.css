@@ -1,0 +1,48 @@
+/* styling Überschrift */
+.header-angebote{
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+/* gap einzelne Elemente */
+.custom-accordion {
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+/* button hintergrund und textcolor */
+.accordion-button,
+.accordion-button:not(.collapsed){
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+/* svg des buttons (collapsed) ändern */
+.accordion-button::after{
+    background-image: url(../../public/images/icons8-plus.svg);
+    background-color: white;
+    border-radius: 50%;
+}
+
+/* svg des buttons (offen) ändern */
+.accordion-button:not(.collapsed)::after{
+    background-image: url(../../public/images/icons8-x-50.png);
+}
+
+
+.custom-pontenova-header {
+    margin: 10px 0 10px 0;
+}
+
+.custom-pontenova-header button,
+.custom-pontenova-header button:not(.collapsed) {
+    color: black;
+    background-color: white;    
+}
+
+.custom-pontenova-header button::after{
+    background-image: url(../../public/images/icons8-plus-black.svg);
+}

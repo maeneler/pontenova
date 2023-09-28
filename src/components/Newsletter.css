@@ -1,0 +1,44 @@
+/* Hintergrund, Padding und Schriftfarbe für Newsletter */
+.newsletter{
+    background-color: black;
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 50px 5% 50px 5%;
+    height: 150px;
+}
+
+/* Border und Schrift Email*/
+.form-floating{
+    color: #E4312A;
+    font-weight: 400;
+    font-size: 1.125rem;
+    border: 3px solid #E4312A;
+    border-radius: 10px;
+}
+
+/* Button grösse Farbe etc */
+.abonnieren-btn.btn.btn-primary {
+    height: 3.125rem;
+    font-size: 1.375rem;
+    font-weight: 700;
+    background-color: #E4312A;
+    border: 3px solid #E4312A;
+    border-radius: 5px;
+    padding: 0 50px;
+
+}
+
+/* responsive design breakpoint */
+@media screen and (max-width: 992px) {
+    .newsletter{
+        height: 100%;
+        padding: 30px 5% 30px 5%;
+    }
+
+    .form-floating{
+        margin: 15px 0;
+    }
+}
+
+
+

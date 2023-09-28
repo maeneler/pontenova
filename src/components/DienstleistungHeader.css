@@ -1,0 +1,51 @@
+.dienstleistungheader{
+    background-color: #E4312A;
+    color: #FFFFFF;
+}
+
+.text{
+    padding: 5% 0 5% 5%;
+}
+
+.picture{
+    position: relative;
+    height: 400px;
+}
+
+.picture.col{
+    padding: 0;
+}
+.picture::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #E4312A 0%, rgba(251, 252, 252, 0) 100%);
+    pointer-events: none; /* Ensure the overlay doesn't interfere with the image */
+  }
+
+.picture img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+
+
+/* border entfernen bei allen tabs */
+.mb-3.nav.nav-tabs{
+    border: none;
+}
+
+/* einzelne tabs stylen */
+.nav-item button{
+    border-radius: 5px;
+    color: #FFFFFF
+}
+
+.nav-item button:hover{
+    color: white;
+}
