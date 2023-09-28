@@ -14,17 +14,17 @@ const FragenCard = ({currentPage}) => {
 
     const textSrc = {
         Trustcenter: {
-            name: 'Peter Frutig',
+            name: 'Vorname Nachname',
             jobtitle: 'CEO Ponte Nova',
-            mail: 'peter.frutig@hin.ch'
+            mail: 'Vorname.Nachname@hin.ch'
         },
         Treuhand: {
-            name: 'Ralf Grubwinkler',
+            name: 'Vorname Nachname',
             jobtitle: 'Mandatsleiter Treuhand / Experte Tarifanwendung',
-            mail: 'ralf.grubwinkler@hin.ch'
+            mail: 'Vorname.Nachname@hin.ch'
         },
         Consulting: {
-            name: 'Florín Rüdisühli',
+            name: 'Vorname Nachname',
             jobtitle: 'CEO der Herzen',
             mail: 'sin-siesta-no-fiesta@salamanca.ch'
         }

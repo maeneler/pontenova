@@ -10,81 +10,81 @@ const Verwaltungsrat = () => {
             titel: 'Präsidentin',
             jobtitle: 'Fachärztin für Psychiatrie und Psychotherapie',
             adress: 'Marktgasse 29, 3011 Bern',
-            tel: 'Tel. 031 311 11 81',
-            fax: 'Fax 031 311 76 04',
-            mail: 'b.reinsch@hin.ch'
+            tel: 'Tel. 031 111 11 11',
+            fax: 'Fax 031 222 11 11',
+            mail: 'vorname.nachname@hin.ch'
         },
         vr2: {
             name: 'Britta Reinsch Michel',
             titel: 'Präsidentin',
             jobtitle: 'Fachärztin für Psychiatrie und Psychotherapie',
             adress: 'Marktgasse 29, 3011 Bern',
-            tel: 'Tel. 031 311 11 81',
-            fax: 'Fax 031 311 76 04',
-            mail: 'b.reinsch@hin.ch'
+            tel: 'Tel. 031 111 11 11',
+            fax: 'Fax 031 222 11 11',
+            mail: 'vorname.nachname@hin.ch'
         },
         vr3: {
             name: 'Britta Reinsch Michel',
             titel: 'Präsidentin',
             jobtitle: 'Fachärztin für Psychiatrie und Psychotherapie',
             adress: 'Marktgasse 29, 3011 Bern',
-            tel: 'Tel. 031 311 11 81',
-            fax: 'Fax 031 311 76 04',
-            mail: 'b.reinsch@hin.ch'
+            tel: 'Tel. 031 111 11 11',
+            fax: 'Fax 031 222 11 11',
+            mail: 'vorname.nachname@hin.ch'
         },
         vr4: {
             name: 'Britta Reinsch Michel',
             titel: 'Präsidentin',
             jobtitle: 'Fachärztin für Psychiatrie und Psychotherapie',
             adress: 'Marktgasse 29, 3011 Bern',
-            tel: 'Tel. 031 311 11 81',
-            fax: 'Fax 031 311 76 04',
-            mail: 'b.reinsch@hin.ch'
+            tel: 'Tel. 031 111 11 11',
+            fax: 'Fax 031 222 11 11',
+            mail: 'vorname.nachname@hin.ch'
         },
         vr5: {
             name: 'Britta Reinsch Michel',
             titel: 'Präsidentin',
             jobtitle: 'Fachärztin für Psychiatrie und Psychotherapie',
             adress: 'Marktgasse 29, 3011 Bern',
-            tel: 'Tel. 031 311 11 81',
-            fax: 'Fax 031 311 76 04',
-            mail: 'b.reinsch@hin.ch'
+            tel: 'Tel. 031 111 11 11',
+            fax: 'Fax 031 222 11 11',
+            mail: 'vorname.nachname@hin.ch'
         },
         vr6: {
             name: 'Britta Reinsch Michel',
             titel: 'Präsidentin',
             jobtitle: 'Fachärztin für Psychiatrie und Psychotherapie',
             adress: 'Marktgasse 29, 3011 Bern',
-            tel: 'Tel. 031 311 11 81',
-            fax: 'Fax 031 311 76 04',
-            mail: 'b.reinsch@hin.ch'
+            tel: 'Tel. 031 111 11 11',
+            fax: 'Fax 031 222 11 11',
+            mail: 'vorname.nachname@hin.ch'
         },
         vr7: {
             name: 'Britta Reinsch Michel',
             titel: 'Präsidentin',
             jobtitle: 'Fachärztin für Psychiatrie und Psychotherapie',
             adress: 'Marktgasse 29, 3011 Bern',
-            tel: 'Tel. 031 311 11 81',
-            fax: 'Fax 031 311 76 04',
-            mail: 'b.reinsch@hin.ch'
+            tel: 'Tel. 031 111 11 11',
+            fax: 'Fax 031 222 11 11',
+            mail: 'vorname.nachname@hin.ch'
         },
         vr8: {
             name: 'Britta Reinsch Michel',
             titel: 'Präsidentin',
             jobtitle: 'Fachärztin für Psychiatrie und Psychotherapie',
             adress: 'Marktgasse 29, 3011 Bern',
-            tel: 'Tel. 031 311 11 81',
-            fax: 'Fax 031 311 76 04',
-            mail: 'b.reinsch@hin.ch'
+            tel: 'Tel. 031 111 11 11',
+            fax: 'Fax 031 222 11 11',
+            mail: 'vorname.nachname@hin.ch'
         },
         vr9: {
             name: 'Britta Reinsch Michel',
             titel: 'Präsidentin',
             jobtitle: 'Fachärztin für Psychiatrie und Psychotherapie',
             adress: 'Marktgasse 29, 3011 Bern',
-            tel: 'Tel. 031 311 11 81',
-            fax: 'Fax 031 311 76 04',
-            mail: 'b.reinsch@hin.ch'
+            tel: 'Tel. 031 111 11 11',
+            fax: 'Fax 031 222 11 11',
+            mail: 'vorname.nachname@hin.ch'
         }
     }
 

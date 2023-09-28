@@ -6,27 +6,27 @@ const Team = () => {
 
     const data = {
         employee1: {
-            name: 'Peter Frutig',
+            name: 'Vorname Nachname',
             jobtitle: 'CEO Ponte Nova',
-            mail: 'peter.frutig@hin.ch',
+            mail: 'Vorname.Nachname@hin.ch',
             imgsrc: 'https://www.pontenova.ch/1/Team/--Frutig.jpg'
         },
         employee2: {
-            name: 'Ralf Grubwinkler',
+            name: 'Vorname Nachname',
             jobtitle: 'Mandatsleiter Treuhand / Experte Tarifanwendung',
-            mail: 'ralf.grubwinkler@hin.ch',
+            mail: 'Vorname.Nachname@hin.ch',
             imgsrc: 'https://www.pontenova.ch/1/Team/Grubwinkler.jpg'
         },
         employee3: {
-            name: 'Priska Stegmann',
+            name: 'Vorname Nachname',
             jobtitle: 'Organisation/Administration',
-            mail: 'priska.stegmann@hin.ch',
+            mail: 'Vorname.Nachname@hin.ch',
             imgsrc: 'https://www.pontenova.ch/1/Team/-Stegmann.jpg'
         },
         employee4: {
-            name: 'Silvia Wiedmer',
+            name: 'Vorname Nachname',
             jobtitle: 'Buchhaltung / Sekratariat',
-            mail: 'silvia.wiedmer@hin.ch',
+            mail: 'Vorname.Nachname@hin.ch',
             imgsrc: 'https://www.pontenova.ch/1/Team/Wiedmer.jpg'
         }
 
