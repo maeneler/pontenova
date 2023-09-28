@@ -10,14 +10,14 @@ const Footer = () => {
                     <Col><h2>Logo</h2></Col>
                     <Col>
                         <h6>PonteNova AG</h6>
-                        <p>Zentrum 32 <br/>
-                        Postfach 319<br/>
-                        3322 Urtenen-Schönbühl</p>
+                        <p>Mustergasse 11 <br/>
+                        Postfach xy<br/>
+                        3000 Bern</p>
                     </Col>
                     <Col>
                         <h6>Kontakt</h6>
-                        <p>Tel. 031 951 88 60 <br/>
-                        Fax 031 951 88 61<br/>
+                        <p>Tel. 031 111 11 11 <br/>
+                        Fax 031 111 11 11<br/>
                         <a href= "mailto:abc@example.com">pontenova@hin.ch</a></p>
                         </Col>
                     <Col>
