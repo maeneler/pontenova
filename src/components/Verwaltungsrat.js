@@ -6,7 +6,7 @@ const Verwaltungsrat = () => {
 
     const data = {
         vr1: {
-            name: 'Britta Reinsch Michel',
+            name: 'Vorname Nachname',
             titel: 'Präsidentin',
             jobtitle: 'Fachärztin für Psychiatrie und Psychotherapie',
             adress: 'Marktgasse 29, 3011 Bern',
@@ -15,7 +15,7 @@ const Verwaltungsrat = () => {
             mail: 'vorname.nachname@hin.ch'
         },
         vr2: {
-            name: 'Britta Reinsch Michel',
+            name: 'Vorname Nachname',
             titel: 'Präsidentin',
             jobtitle: 'Fachärztin für Psychiatrie und Psychotherapie',
             adress: 'Marktgasse 29, 3011 Bern',
@@ -24,7 +24,7 @@ const Verwaltungsrat = () => {
             mail: 'vorname.nachname@hin.ch'
         },
         vr3: {
-            name: 'Britta Reinsch Michel',
+            name: 'Vorname Nachname',
             titel: 'Präsidentin',
             jobtitle: 'Fachärztin für Psychiatrie und Psychotherapie',
             adress: 'Marktgasse 29, 3011 Bern',
@@ -33,7 +33,7 @@ const Verwaltungsrat = () => {
             mail: 'vorname.nachname@hin.ch'
         },
         vr4: {
-            name: 'Britta Reinsch Michel',
+            name: 'Vorname Nachname',
             titel: 'Präsidentin',
             jobtitle: 'Fachärztin für Psychiatrie und Psychotherapie',
             adress: 'Marktgasse 29, 3011 Bern',
@@ -42,7 +42,7 @@ const Verwaltungsrat = () => {
             mail: 'vorname.nachname@hin.ch'
         },
         vr5: {
-            name: 'Britta Reinsch Michel',
+            name: 'Vorname Nachname',
             titel: 'Präsidentin',
             jobtitle: 'Fachärztin für Psychiatrie und Psychotherapie',
             adress: 'Marktgasse 29, 3011 Bern',
@@ -51,7 +51,7 @@ const Verwaltungsrat = () => {
             mail: 'vorname.nachname@hin.ch'
         },
         vr6: {
-            name: 'Britta Reinsch Michel',
+            name: 'Vorname Nachname',
             titel: 'Präsidentin',
             jobtitle: 'Fachärztin für Psychiatrie und Psychotherapie',
             adress: 'Marktgasse 29, 3011 Bern',
@@ -60,7 +60,7 @@ const Verwaltungsrat = () => {
             mail: 'vorname.nachname@hin.ch'
         },
         vr7: {
-            name: 'Britta Reinsch Michel',
+            name: 'Vorname Nachname',
             titel: 'Präsidentin',
             jobtitle: 'Fachärztin für Psychiatrie und Psychotherapie',
             adress: 'Marktgasse 29, 3011 Bern',
@@ -69,7 +69,7 @@ const Verwaltungsrat = () => {
             mail: 'vorname.nachname@hin.ch'
         },
         vr8: {
-            name: 'Britta Reinsch Michel',
+            name: 'Vorname Nachname',
             titel: 'Präsidentin',
             jobtitle: 'Fachärztin für Psychiatrie und Psychotherapie',
             adress: 'Marktgasse 29, 3011 Bern',
@@ -78,7 +78,7 @@ const Verwaltungsrat = () => {
             mail: 'vorname.nachname@hin.ch'
         },
         vr9: {
-            name: 'Britta Reinsch Michel',
+            name: 'Vorname Nachname',
             titel: 'Präsidentin',
             jobtitle: 'Fachärztin für Psychiatrie und Psychotherapie',
             adress: 'Marktgasse 29, 3011 Bern',
