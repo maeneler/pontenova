@@ -49,3 +49,13 @@
 .nav-item button:hover{
     color: white;
 }
+
+
+.homeHeaderLink{
+    margin-top: 50px;
+}
+
+.homeHeaderLink a{
+    color: white;
+    text-decoration: none;
+}

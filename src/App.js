@@ -14,11 +14,12 @@ function App() {
   const [page, setPage] = useState('Home');
 
   const handlePageChange = (newPage) => {
+    window.scrollTo(0, 0)
     setPage(newPage)
   }
 
   const pages = {
-    Home: <Home />,
+    Home: <Home currentPage={page} onPageChange={handlePageChange}/>,
     PonteNova: <PonteNova currentPage={page} onPageChange={handlePageChange}/>,
     Trustcenter: <Trustcenter currentPage={page} onPageChange={handlePageChange}/>,
     Treuhand: <Treuhand currentPage={page} onPageChange={handlePageChange}/>,

@@ -1,0 +1,18 @@
+.container-agenda{
+    margin: 30px 0;
+}
+
+.header-veranstaltungen{
+    margin: 0 50px;
+}
+
+.linkToVeranstaltungen{
+    margin: 0 50px 20px 50px;
+    
+}
+
+.linkToVeranstaltungen a{
+    color: red;
+    text-decoration: none;
+}
+

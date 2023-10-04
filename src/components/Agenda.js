@@ -1,9 +1,11 @@
 import React from 'react';
 import { Accordion, Container } from 'react-bootstrap';
 import './Angebote.css'
+import './Agenda.css'
 
-const Agenda = ({currentPage}) => {
+const Agenda = ({currentPage, onPageChange}) => {
     let accordionData;
+    let headerInfo;
 
     if (currentPage === 'Veranstaltungen'){
         accordionData = [
@@ -72,6 +74,11 @@ const Agenda = ({currentPage}) => {
                 link: 'Für den Event anmelden -->'
             }
         ];
+
+        headerInfo = {
+            title: "Agenda",
+            text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. "
+        }
     } if (currentPage === 'Home'){
         accordionData = [
             {
@@ -99,24 +106,48 @@ const Agenda = ({currentPage}) => {
                 link: 'Für den Event anmelden -->'
            }
         ];
+
+        headerInfo = {
+            title: "Veranstaltungen",
+            text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. "
+        }
     } 
 
     return (
-        <div>
+        <div className='container-agenda'>            
             <Container>
             {['Home', 'Veranstaltungen'].includes(currentPage) && (
-                        <h3 className='header-angebote'>Agenda</h3>,
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
-    
-                        )}
+                <div>
+                    <div className='header-veranstaltungen'>
+                        <h3 className='header-angebote'>{headerInfo.title}</h3>
+                        <p>{headerInfo.text}</p>
+                    </div>
+
+                    {currentPage === 'Home' && (
+                        <div className='linkToVeranstaltungen'>
+                            <br></br>
+                            <a href='#Veranstaltungen' onClick={() => onPageChange('Veranstaltungen')}>Alle Veranstaltungen ansehen</a>
+                        </div>
+                    )}
+
+                                                            
                 <Accordion>
                     {accordionData.map((item) =>(
                         <Accordion.Item key={item.id} eventKey={item.id} >
-                        <Accordion.Header className={`custom-accordion ${currentPage ==='PonteNova' ? 'custom-pontenova-header' : ''}`}>{item.title}</Accordion.Header>
-                        <Accordion.Body>{item.text}</Accordion.Body>
+                        <Accordion.Header className={`custom-accordion ${currentPage ==='PonteNova' ? 'custom-pontenova-header' : ''}`}>{item.date}</Accordion.Header>
+                        <Accordion.Body>
+                            <h6>{item.title}</h6>
+                            <p>{item.adress}</p>
+                            <br></br>
+                            <p>{item.text}</p>
+                            <p><a href='#top'>Für den Event anmelden</a></p>
+                            
+                        </Accordion.Body>
                     </Accordion.Item>
                     ))}
                 </Accordion>
+                </div>
+                )}
             </Container>
         </div>
     );

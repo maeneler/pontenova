@@ -22,7 +22,7 @@ const NavBar = ({onPageChange}) => {
           <Offcanvas.Body>
             <Nav className="ms-auto">
               <Nav.Link href="#Home" onClick={() => onPageChange('Home')}>Home</Nav.Link>
-              <NavDropdown title="Ponte Nova" id="nav-dropdown1" onClick={() => onPageChange('PonteNova')} >
+              <NavDropdown title="Ponte Nova" id="nav-dropdown1"  onClick={() => onPageChange('PonteNova')} >
                 <NavDropdown.Item href="#Über" eventKey="2.1" className="custom-nav-dropdown">
                   Über Ponte Nova
                 </NavDropdown.Item>

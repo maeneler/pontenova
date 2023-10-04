@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Ratio } from "react-bootstrap";
 import './Video.css'
 
-const Video = () => {
+const Video = ({currentPage}) => {
     return (
-        <Container>
+        <Container className={`${currentPage === 'Home' ? 'homepageVideo': ''}`}>
             <div className="video-content">
                 <Ratio aspectRatio="16x9">
                     <div>

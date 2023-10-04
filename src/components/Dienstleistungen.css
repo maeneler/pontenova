@@ -1,0 +1,50 @@
+.header-dienstleistungen h3{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.header-dienstleistungen p{
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.header-dienstleistungen{
+    margin: 25px 80px;
+}
+
+
+.dienstleistung-list{
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 15px;
+    
+}
+
+.dienstleistung{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0px 5px 5px 0 rgba(0,0,0,0.6);
+    border-radius: 5px;
+    width: calc(33.33% - 20px);
+}
+
+.dienstleistung:hover{
+    cursor: pointer;
+}
+
+.dienstleistung img {
+    width: 100%;
+    height: 66%;
+}
+
+.dienstleistung h4{
+    margin: auto 0;
+}
+
+
+
