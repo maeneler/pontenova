@@ -16,15 +16,12 @@
 
 @media screen and (max-width: 520px) {
    .test {
-    display: flex;
     flex-direction: column;
     text-align: center;
    }
 
    .footer{
-    display: flex;
-    justify-content: center;
-    
+    justify-content: center;    
    }
     
 }
