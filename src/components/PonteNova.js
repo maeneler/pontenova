@@ -13,7 +13,7 @@ import Partner from './Partner';
 
 const PonteNova = ({ currentPage, onPageChange}) => {
     return (
-        <div>
+        <>
             <DienstleistungHeader currentPage={currentPage} onPageChange={onPageChange}/>
             <Container>
                 <div className='ueber'>
@@ -29,7 +29,7 @@ const PonteNova = ({ currentPage, onPageChange}) => {
             <Partner />
             <Newsletter />
             <Footer />
-        </div>
+        </>
     );
 };
 

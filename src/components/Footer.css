@@ -3,13 +3,28 @@
     background-color: black;
     color: #FFFFFF;
     padding: 50px 5% 50px 5%;
-    height: 280px;
     border-top: 1px solid white;
 }
+
 
 /* text kleiner bei kleinerem screen */
 @media screen and (max-width: 768px) {
     .footer p{
         font-size: 12px;
     }
+}
+
+@media screen and (max-width: 520px) {
+   .test {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   }
+
+   .footer{
+    display: flex;
+    justify-content: center;
+    
+   }
+    
 }

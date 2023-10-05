@@ -32,11 +32,12 @@
 @media screen and (max-width: 992px) {
     .newsletter{
         height: 100%;
-        padding: 30px 5% 30px 5%;
+        /* padding: 30px 5% 30px 5%; */
     }
 
     .form-floating{
         margin: 15px 0;
+        
     }
 }
 

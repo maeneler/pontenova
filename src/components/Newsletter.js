@@ -7,8 +7,8 @@ const Newsletter = () => {
         <div>
             <Container fluid className='newsletter'>
                 <Row className='justify-content-md-center align-items-center'>
-                    <Col md={6}><h3>Bleiben sie am Puls mit unserem Newsletter.</h3></Col>
-                    <Col md={3}>
+                    <Col lg={6} md={12}   className='text-center'><h3>Bleiben sie am Puls mit unserem Newsletter.</h3></Col>
+                    <Col lg={3} md={12} >
                         <FloatingLabel
                             controlId='floatingInput'
                             label='Ihre E-Mail-Adresse'
@@ -16,7 +16,7 @@ const Newsletter = () => {
                             <Form.Control type='email' placeholder='max.mustermann@muster.ch' />
                         </FloatingLabel>
                     </Col>
-                    <Col md={3}>
+                    <Col lg={3} md={12}  className='text-center'>
                         <Button type='submit' className='abonnieren-btn'>Abonnieren</Button>
                     </Col>
                 </Row>
