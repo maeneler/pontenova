@@ -3,6 +3,16 @@
     color: #FFFFFF;
 }
 
+.dienstleistungheader h2 {
+    font-size: 34px;
+    font-weight: 600;
+    border: 1px solid black;
+}
+
+.dienstleistungheader p{
+    font-size: 18px;
+}
+
 .text{
     padding: 5% 0 5% 5%;
 }
@@ -31,6 +41,7 @@
     height: 100%;
     display: block;
     object-fit: cover;
+    border: 1px solid green;
 }
 
 
@@ -58,4 +69,22 @@
 .homeHeaderLink a{
     color: white;
     text-decoration: none;
+}
+
+
+@media screen and (max-width: 900px) {
+    .dienstleistungheader {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dienstleistungheader .text {
+        text-align: center;
+        padding: 10% 3%;
+    }
+
+    .dienstleistungheader .picture {
+        display: none; /* Hide the image */
+    }
 }

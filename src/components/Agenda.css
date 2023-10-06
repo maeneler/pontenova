@@ -3,16 +3,31 @@
 }
 
 .header-veranstaltungen{
-    margin: 0 50px;
+    margin: 25px 80px;
+}
+
+.header-angebote.margin-bottom{
+    margin-bottom: 15px;
+}
+
+.header-veranstaltungen p{
+    font-weight: 400;
+    font-size: 22px;
 }
 
 .linkToVeranstaltungen{
-    margin: 0 50px 20px 50px;
-    
+    margin: 0 50px 25px 80px;    
 }
 
 .linkToVeranstaltungen a{
     color: red;
     text-decoration: none;
+}
+
+@media screen and (max-width: 978px) {
+    .header-veranstaltungen h3,
+    .linkToVeranstaltungen{
+        text-align: center;
+    }
 }
 

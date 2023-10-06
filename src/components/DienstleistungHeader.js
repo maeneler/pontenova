@@ -78,7 +78,7 @@ const DienstleistungHeader = ({currentPage, onPageChange}) => {
                          <p className='homeHeaderLink'><a href='#Kontakt' onClick={() => onPageChange('Kontakt')}>{description}</a></p>
                         )}
                     </Col>
-                    <Col className='picture'>
+                    <Col  className='picture'>
                         <img src={imgSrc} alt=''  />
                     </Col>
                 </Row>

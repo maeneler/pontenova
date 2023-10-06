@@ -119,7 +119,7 @@ const Agenda = ({currentPage, onPageChange}) => {
             {['Home', 'Veranstaltungen'].includes(currentPage) && (
                 <div>
                     <div className='header-veranstaltungen'>
-                        <h3 className='header-angebote'>{headerInfo.title}</h3>
+                        <h3 className='header-angebote margin-bottom' >{headerInfo.title}</h3>
                         <p>{headerInfo.text}</p>
                     </div>
 

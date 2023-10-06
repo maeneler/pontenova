@@ -50,11 +50,14 @@
     .dienstleistung-list{
         flex-direction: column;
         align-items: center;
-    }
-
-    
+    }    
     
 }
 
+@media screen and (max-width: 978px) {
+    .header-dienstleistungen h3{
+        text-align: center;
+    }
+}
 
 

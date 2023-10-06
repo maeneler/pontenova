@@ -18,15 +18,17 @@
 }
 
 .kontakt h3 {
-    font-size: 42px;
+    font-size: 34px;
+    font-weight: 600;
 }
 
 /* Breite der Rows im Container */
 .kontaktinfos {
-    width: 55%;
+    width: 60%;
 }
 
 .kontaktinfos p {
+    font-weight: 400;
     font-size: 18px;
 }
 
