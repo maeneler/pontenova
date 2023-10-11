@@ -23,5 +23,9 @@
    .footer{
     justify-content: center;    
    }
+
+   .test img{
+    margin-bottom: 15px;
+   }
     
 }

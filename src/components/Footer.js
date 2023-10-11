@@ -8,7 +8,7 @@ const Footer = () => {
             <Container fluid className='footer'>
                 <Row className='test'>
                     <Col>
-                        <h2>Logo</h2>
+                        <img src={'../../images/logoipsum-298.svg'} alt=''></img>
                     </Col>
                     <Col>
                         <h6>PonteNova AG</h6>

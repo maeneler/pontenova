@@ -46,3 +46,15 @@
 .custom-pontenova-header button::after{
     background-image: url(../../public/images/icons8-plus-black.svg);
 }
+
+@media screen and (max-width: 500px) {
+    .custom-accordion{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .custom-accordion{
+        font-size: 16px;
+    }
+}
