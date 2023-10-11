@@ -5,3 +5,10 @@
     gap: 25px;
     margin: 50px 0;
 }
+
+
+@media screen and (max-width: 425px) {
+    .header-team h3{
+        font-size: 24px;
+    }
+}

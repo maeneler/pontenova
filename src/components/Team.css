@@ -46,8 +46,19 @@
 }
 
 @media screen and (max-width: 978px) {
+    .header-team{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
      .header-team p{
         font-size: 16px;
+    }
+
+    .header-team h3{
+        font-size: 26;
+        font-weight: 500;
     }
 
     .employee h4,
@@ -57,5 +68,12 @@
         text-align: center;
     }
 
+}
+
+@media screen and (max-width: 500px) {
+    .employee{
+        width: 60%;
+    }
+    
 }
 
