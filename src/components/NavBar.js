@@ -18,7 +18,7 @@ const NavBar = ({ currentPage, onPageChange}) => {
         <Navbar.Brand href="https://logoipsum.com/"><img src={'../../images/logoipsum-298.svg'} alt=""></img></Navbar.Brand>
         <Navbar.Toggle 
           aria-controls='offcanvasNavbar-expand-lg'
-          onClick={() => setShowOffCanvas(!showOffCanvas)} />
+          onTouchEnd={() => setShowOffCanvas(!showOffCanvas)} />
         <Navbar.Offcanvas
           id='offcanvasNavbar-expand-lg'
           aria-labelledby='offcanvasNavbarLabel-expand-lg'
@@ -33,7 +33,7 @@ const NavBar = ({ currentPage, onPageChange}) => {
           </Offcanvas.Header>
           <Offcanvas.Body>
             <Nav className="ms-auto">
-              <Nav.Link href="#Home" className={currentPage === 'Home' ? 'homeRed' : ''}   onClick={() => {onPageChange('Home'); setShowOffCanvas(!showOffCanvas)}}>Home</Nav.Link>
+              <Nav.Link href="#Home" className={currentPage === 'Home' ? 'homeRed' : ''}  onClick={() => onPageChange('Home')} onTouchEnd={() => {onPageChange('Home'); setShowOffCanvas(!showOffCanvas)}}>Home</Nav.Link>
               <NavDropdown title="Ponte Nova" id="nav-dropdown1"  onClick={() => onPageChange('PonteNova')} >
                 <NavDropdown.Item href="#Über" eventKey="2.1" className="custom-nav-dropdown" onClick={() => setShowOffCanvas(!showOffCanvas)}>
                   Über Ponte Nova
