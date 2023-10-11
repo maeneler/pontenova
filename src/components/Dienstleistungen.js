@@ -30,7 +30,7 @@ const Dienstleistungen = ({currentPage, onPageChange}) => {
                 {Object.keys(data).map((dienstleistungKey) =>{
                     const dienstleistung = data[dienstleistungKey];
                     return(
-                        <div key={dienstleistungKey} className="dienstleistung" onClick={() => onPageChange(dienstleistung.name)} onTouchEnd={() => onPageChange(dienstleistung.name)}>
+                        <div key={dienstleistungKey} className="dienstleistung" onClick={() => {onPageChange(dienstleistung.name); window.scrollTo(0, 0)}}>
                             <img src={dienstleistung.imgsrc} alt={dienstleistung.name}/>
                             <h4>{dienstleistung.name}</h4>
                         </div>
