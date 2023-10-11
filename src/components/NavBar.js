@@ -35,32 +35,32 @@ const NavBar = ({ currentPage, onPageChange}) => {
             <Nav className="ms-auto">
               <Nav.Link href="#Home" className={currentPage === 'Home' ? 'homeRed' : ''}  onClick={() => onPageChange('Home')} onTouchEnd={() => {onPageChange('Home'); setShowOffCanvas(!showOffCanvas)}}>Home</Nav.Link>
               <NavDropdown title="Ponte Nova" id="nav-dropdown1"  onClick={() => onPageChange('PonteNova')} >
-                <NavDropdown.Item href="#Über" eventKey="2.1" className="custom-nav-dropdown" onClick={() => setShowOffCanvas(!showOffCanvas)}>
+                <NavDropdown.Item href="#Über" eventKey="2.1" className="custom-nav-dropdown" onTouchEnd={() => setShowOffCanvas(!showOffCanvas)}>
                   Über Ponte Nova
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#Team" eventKey="2.2" onClick={() => setShowOffCanvas(!showOffCanvas)}>
+                <NavDropdown.Item href="#Team" eventKey="2.2" onTouchEnd={() => setShowOffCanvas(!showOffCanvas)}>
                   Team
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#Verwaltungsrat" eventKey="2.3" onClick={() => setShowOffCanvas(!showOffCanvas)}>
+                <NavDropdown.Item href="#Verwaltungsrat" eventKey="2.3" onTouchEnd={() => setShowOffCanvas(!showOffCanvas)}>
                   Verwaltungsrat
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#Partner" eventKey="2.3" onClick={() => setShowOffCanvas(!showOffCanvas)}>
+                <NavDropdown.Item href="#Partner" eventKey="2.3" onTouchEnd={() => setShowOffCanvas(!showOffCanvas)}>
                   Partner
                 </NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Dienstleistungen" id="nav-dropdown2" >
-                <NavDropdown.Item href="#Trustcenter" eventKey="3.1" className="custom-nav-dropdown" onClick={() => {onPageChange('Trustcenter'); setShowOffCanvas(!showOffCanvas)}}>
+                <NavDropdown.Item href="#Trustcenter" eventKey="3.1" className="custom-nav-dropdown" onClick={() => onPageChange('Trustcenter')} onTouchEnd={() => {onPageChange('Trustcenter'); setShowOffCanvas(!showOffCanvas)}}>
                   Trustcenter
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#Treuhand" eventKey="3.2" onClick={() => {onPageChange('Treuhand'); setShowOffCanvas(!showOffCanvas)}}>
+                <NavDropdown.Item href="#Treuhand" eventKey="3.2" onClick={() => onPageChange('Treuhand')} onTouchEnd={() => {onPageChange('Treuhand'); setShowOffCanvas(!showOffCanvas)}}>
                   Treuhand
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#Consulting" eventKey="3.3" onClick={() => {onPageChange('Consulting'); setShowOffCanvas(!showOffCanvas)}}>
+                <NavDropdown.Item href="#Consulting" eventKey="3.3" onClick={() => onPageChange('Consulting')} onTouchEnd={() => {onPageChange('Consulting'); setShowOffCanvas(!showOffCanvas)}}>
                   Consulting
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="#Veranstaltungen" className={currentPage === 'Veranstaltungen' ? 'veranstaltungenRed' : ''} onClick={()=> {onPageChange('Veranstaltungen'); setShowOffCanvas(!showOffCanvas)}}>Veranstaltungen</Nav.Link>
-              <Nav.Link href="#Kontakt" className={currentPage === 'Kontakt' ? 'kontaktRed' : ''} onClick={() => {onPageChange('Kontakt'); setShowOffCanvas(!showOffCanvas)}}>Kontakt</Nav.Link>
+              <Nav.Link href="#Veranstaltungen" className={currentPage === 'Veranstaltungen' ? 'veranstaltungenRed' : ''} onClick={() => onPageChange('Veranstaltungen')} onTouchEnd={() => {onPageChange('Verantaltungen'); setShowOffCanvas(!showOffCanvas)}}>Veranstaltungen</Nav.Link>
+              <Nav.Link href="#Kontakt" className={currentPage === 'Kontakt' ? 'kontaktRed' : ''} onClick={() => onPageChange('Kontakt')} onTouchEnd={() => {onPageChange('Kontakt'); setShowOffCanvas(!showOffCanvas)}}>Kontakt</Nav.Link>
             </Nav>
           </Offcanvas.Body>
         </Navbar.Offcanvas>
