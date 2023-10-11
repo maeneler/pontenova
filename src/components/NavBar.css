@@ -7,7 +7,6 @@
     color: #1D1D1D;
 }
 
-
 /* default pfeile bei dropdown alternativen entfernen */
 .navbar-light .navbar-nav .nav-link::after {
     display: none;
