@@ -9,6 +9,11 @@
 }
 
 .dienstleistung-info{
-    margin: 100px 0;
+    margin: 50px 0;
 }
 
+@media screen and (max-width: 978px) {
+    .dienstleistung-info p{
+        font-size: 16px;
+    }
+}

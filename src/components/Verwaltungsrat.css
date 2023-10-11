@@ -14,8 +14,9 @@
 
 .vr-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 .vr-members {
@@ -27,4 +28,17 @@
 
 .vr-members p{
     margin-bottom: 0;
+}
+
+@media screen and (max-width: 992px) {
+    .header-vr-team p,
+    .vr-members p{
+        font-size: 16px;
+    }
+    
+    .vr-list {
+        justify-content: space-around;
+        gap: 2px;
+    }
+
 }

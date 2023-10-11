@@ -12,3 +12,9 @@
     margin: 100px 0;
 }
 
+
+@media screen and (max-width: 978px) {
+    .ueber p{
+        font-size: 16px;
+    }
+}

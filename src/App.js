@@ -8,6 +8,7 @@ import Treuhand from './components/Treuhand';
 import Consulting from './components/Consulting';
 import Veranstaltungen from './components/Veranstaltungen';
 import Kontakt from './components/Kontakt';
+import './App.css'
 
 
 function App() {

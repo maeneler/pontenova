@@ -15,7 +15,7 @@ const NavBar = ({ currentPage, onPageChange}) => {
   return (
     <Navbar expand="lg" className="navbar-custom">
       <Container fluid>
-        <Navbar.Brand href="#home">Logo</Navbar.Brand>
+        <Navbar.Brand href="https://logoipsum.com/"><img src={'../../images/logoipsum-298.svg'} alt=""></img></Navbar.Brand>
         <Navbar.Toggle 
           aria-controls='offcanvasNavbar-expand-lg'
           onClick={() => setShowOffCanvas(!showOffCanvas)} />

@@ -8,7 +8,6 @@ import './Trustcenter.css'
 import { Container } from 'react-bootstrap';
 
 const Trustcenter = ({currentPage, onPageChange}) => {
-    console.log("currentpage: " + currentPage)
     return (
         <div>
             <DienstleistungHeader currentPage={currentPage} onPageChange={onPageChange}/>

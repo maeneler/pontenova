@@ -1,6 +1,7 @@
 .logo-list{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 25px;
     margin: 50px 0;
 }

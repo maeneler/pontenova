@@ -40,7 +40,7 @@ const FragenCard = ({currentPage}) => {
             <Card.Body>
                 <Row className='fragen'>
                     <Col md={2}><img src={picture} alt='' /></Col>
-                    <Col>
+                    <Col className='fragen-info'>
                         <h4>Haben Sie Fragen zu unseren {currentPage}-Angeboten?</h4>
                         <h6>{info.name}</h6>
                         <p>{info.jobtitle}</p>

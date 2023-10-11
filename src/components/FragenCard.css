@@ -12,7 +12,7 @@
 }
 
 .col-md-2 img {
-    border-radius: 50%;
+    border-radius: 50%;    
 }
 
 .col h4{
@@ -24,10 +24,35 @@
     font-weight: 700;
     font-size: 22px;
 }
+
 .fragen p{
     font-size: 22px;
     font-weight: 400;
 }
 .fragen .col:last-child{
     margin-top: 5px;
+}
+
+@media screen and (max-width: 978px) {
+    .col h4{
+        font-weight: 700;
+        font-size: 28px;
+    }
+    
+    .col h6 {
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .fragen p{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .fragen{
+        flex-direction: column;
+        align-items: center;
+    }
+    .fragen-info{
+        text-align: center;
+    }
+
 }
