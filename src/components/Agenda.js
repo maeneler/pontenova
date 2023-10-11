@@ -115,7 +115,7 @@ const Agenda = ({currentPage, onPageChange}) => {
 
     return (
         <div className='container-agenda'>            
-            <Container>
+            <Container className='veranstaltungen-responsive'>
             {['Home', 'Veranstaltungen'].includes(currentPage) && (
                 <div>
                     <div className='header-veranstaltungen'>
@@ -126,7 +126,7 @@ const Agenda = ({currentPage, onPageChange}) => {
                     {currentPage === 'Home' && (
                         <div className='linkToVeranstaltungen'>
                             <br></br>
-                            <a href='#Veranstaltungen' onClick={() => onPageChange('Veranstaltungen')}>Alle Veranstaltungen ansehen</a>
+                            <a href='#Veranstaltungen' onClick={() => onPageChange('Veranstaltungen')}>Alle Veranstaltungen</a>
                         </div>
                     )}
 

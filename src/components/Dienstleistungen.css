@@ -46,15 +46,21 @@
     margin: auto 0;
 }
 
-@media screen and (max-width: 500px) {
-    .dienstleistung-list{
+@media screen and (max-width: 500px) {    
+
+    .dienstleistung-responsive .header-dienstleistungen{
+        display: flex;
         flex-direction: column;
         align-items: center;
-    }   
-    
+    }
+
     .header-dienstleistungen h3{
         font-size: 26;
         font-weight: 500;
+    }
+
+    .dienstleistung-responsive p{
+        font-size: 18px;
     }
     
 }
