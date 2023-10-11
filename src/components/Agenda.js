@@ -126,7 +126,7 @@ const Agenda = ({currentPage, onPageChange}) => {
                     {currentPage === 'Home' && (
                         <div className='linkToVeranstaltungen'>
                             <br></br>
-                            <a href='#Veranstaltungen' onClick={() => onPageChange('Veranstaltungen')}>Alle Veranstaltungen</a>
+                            <a href='#Veranstaltungen' onClick={() => onPageChange('Veranstaltungen')}>Alle Veranstaltungen ansehen</a>
                         </div>
                     )}
 

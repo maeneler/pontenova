@@ -46,7 +46,10 @@
     margin: auto 0;
 }
 
-@media screen and (max-width: 500px) {    
+@media screen and (max-width: 978px) {
+    .header-dienstleistungen h3{
+        text-align: center;
+    }
 
     .dienstleistung-responsive .header-dienstleistungen{
         display: flex;
@@ -62,12 +65,11 @@
     .dienstleistung-responsive p{
         font-size: 18px;
     }
-    
 }
 
-@media screen and (max-width: 978px) {
-    .header-dienstleistungen h3{
-        text-align: center;
+@media screen and (max-width: 500px) {
+    .dienstleistung-list h4{
+        font-size: smaller;
     }
 }
 

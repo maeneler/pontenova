@@ -25,11 +25,6 @@
 }
 
 @media screen and (max-width: 978px) {
-    .header-veranstaltungen h3,
-    .linkToVeranstaltungen{
-        text-align: center;
-    }
-
     .veranstaltungen-responsive .header-veranstaltungen,
     .veranstaltungen-responsive .linkToVeranstaltungen{
         display: flex;
