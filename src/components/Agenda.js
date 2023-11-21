@@ -134,13 +134,12 @@ const Agenda = ({currentPage, onPageChange}) => {
                     {accordionData.map((item) =>(
                         <Accordion.Item key={item.id} eventKey={item.id} >
                         <Accordion.Header className={`custom-accordion ${currentPage ==='PonteNova' ? 'custom-pontenova-header' : ''}`}>{item.date}</Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body className='text-width'>
                             <h6>{item.title}</h6>
                             <p>{item.adress}</p>
                             <br></br>
                             <p>{item.text}</p>
-                            <p><a href='#top'>Für den Event anmelden</a></p>
-                            
+                            <p><a href='#top'>Für den Event anmelden</a></p>                            
                         </Accordion.Body>
                     </Accordion.Item>
                     ))}
